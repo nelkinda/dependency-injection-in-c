@@ -8,7 +8,7 @@ struct Command {
 
 #define DEF_COMMAND(funcname) \
     static \
-    struct Command \
+    const struct Command \
     __attribute__((used)) \
     __attribute__((section("Commands"))) \
     funcname ## _command = { \
