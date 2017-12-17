@@ -1,2 +1,4 @@
+# Commands Linker steering file for the Keil/ARM toolchain
+
 IMPORT Commands$$Base AS Commands_start
 IMPORT Commands$$Limit AS Commands_end
